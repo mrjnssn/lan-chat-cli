@@ -72,8 +72,7 @@ After completing the installation, you can start the server with the lan-chat-se
 
 To configure different values, you can use the following arguments:
 ```bash
---host [HOST]
---port [PORT]
+lan-chat-server [-h] [--host HOST] [--port PORT]
 ```
 
 ### 2. Connecting a client
@@ -82,8 +81,7 @@ To connect a client, the client needs to know the IP address of the server and t
 
 To configure different values, you can use the following arguments:
 ```bash
---host [HOST]
---port [PORT]
+lan-chat-client [-h] [--host HOST] [--port PORT]
 ```
 Where host refers to the IP address of the server, and port refers to the port the server is listening on.
 
